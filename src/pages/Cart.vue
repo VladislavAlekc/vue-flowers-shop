@@ -97,7 +97,7 @@ const buttonDisabled = computed(() => cartStore.isCreatingOrder || cartEmpty.val
                 </div>
               </div>
               <div
-                class="lg:fixed lg:z-[100] lg:bottom-0 lg:bg-white lg:left-0 lg:pt-[16px] lg:pb-[83px] lg:px-[24px] mobileSmall:p-[12px] lg:border-t lg:border-gray-200 lg:border-solid lg:w-full"
+                class="lg:fixed lg:z-[100] lg:bottom-0 lg:bg-white lg:left-0 lg:pt-[16px] lg:pb-[83px] lg:px-[24px] mobileSmall:px-[12px] lg:border-t lg:border-gray-200 lg:border-solid lg:w-full"
               >
                 <div class="flex justify-between items-center large:pt-[24px]">
                   <div class="mbs:text-[16px] leading-[120%]">Скидка</div>
