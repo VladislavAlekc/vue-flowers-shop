@@ -1,5 +1,5 @@
 <template>
-  <main class="pt-[65px] mobile:pt-[45px]">
+  <main class="py-[65px] mobile:pt-[45px]">
     <div class="container">
       <div class="flex flex-col justify-center items-center">
         <img class="max-w-[65%] mobileSmall:max-w-[85%]" src="/404.svg" alt="404" />

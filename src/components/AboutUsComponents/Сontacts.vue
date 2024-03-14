@@ -1,6 +1,6 @@
 <script setup>
 import { GoogleMap, Marker, InfoWindow } from 'vue3-google-map'
-const apiKey = 'AIzaSyAhBe2Ou1HPwpgEsmQfxOoWkI6TQIkb4mA'
+const apiKey = 'GOOGLE_KEY'
 const center = { lat: 45.055849, lng: 39.041088 }
 const markerOptions = {
   position: center,
