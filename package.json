@@ -19,6 +19,7 @@
     "vue": "^3.3.10",
     "vue-router": "^4.2.5",
     "vue-slider-component": "^4.1.0-beta.7",
+    "vue-the-mask": "^0.11.1",
     "vue3-google-map": "^0.19.0",
     "vuejs-paginate-next": "^1.0.2"
   },

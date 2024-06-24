@@ -126,6 +126,9 @@
     transition: all 0.3s ease 0s;
     padding: 0px 15px;
   }
+  ._lock {
+    overflow: hidden;
+  }
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

@@ -4,6 +4,8 @@ import { useCartStore } from '../../stores/cartsStore'
 import { useFavoritesStore } from '../../stores/favoritesStore'
 import { ref } from 'vue'
 
+const emit = defineEmits(['toggleRegistrationPopup'])
+
 const cartStore = useCartStore()
 const favoritesStore = useFavoritesStore()
 
@@ -113,8 +115,12 @@ const toggleBurgerMenu = ref(false)
                 </li>
               </ul>
             </div>
-            <a class="group flex items-center" href="#"
-              ><img
+            <button
+              type="button"
+              @click="emit('toggleRegistrationPopup')"
+              class="group flex items-center"
+            >
+              <img
                 class="max-w-[24px] group-hover:scale-[1.16] transition-all"
                 src="/header/enter.svg"
                 alt="enter"
@@ -122,7 +128,7 @@ const toggleBurgerMenu = ref(false)
               <span class="text-[#333] leading-[120%] pl-[3px] lg:text-[12px] mobile:hidden"
                 >Войти</span
               >
-            </a>
+            </button>
             <button
               @click="toggleBurgerMenu = !toggleBurgerMenu"
               :class="[
