@@ -13,12 +13,12 @@ const valueСonfirmedPass = ref('')
   >
     <div class="p-[32px] flex flex-col">
       <div class="flex items-center justify-between">
-        <div class="text-[28px] leading-[120%] mobileSmall:text-[26px]">
+        <div class="text-[28px] leading-[120%] mobileSmall:text-[24px]">
           Регистрация в личном кабинете
         </div>
         <button
           @click="emit('toggleRegistrationPopup')"
-          class="flex items-center justify-center bg-[#23b371cf] h-8 w-8 mobileSmall:w-7 mobileSmall:h-7 rounded-[50%] transition hover:scale-[1.2]"
+          class="ml-[32px] flex items-center justify-center bg-[#23b371cf] h-8 w-8 mobileSmall:w-5 mobileSmall:h-5 rounded-[50%] transition hover:scale-[1.2]"
           type="button"
         >
           <svg
